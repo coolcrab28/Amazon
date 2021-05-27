@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             {/* top nav */}
-            <div className="flex items-center h-12 bg-amazon_blue p-1 flex-grow py-2">
+            <div className="flex items-center bg-amazon_blue p-1 flex-grow py-2">
 
                 <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
                     <Image 
@@ -22,12 +22,23 @@ function Header() {
                 </div>
 
                 {/* right  */}
-                <div>
-                    <div>
-                        <p>Hello Lakshya Mahajan</p>
+                <div className="mx-6 text-white  whitespace-nowrap flex items-center text-xs space-x-6">
+                    <div className=" link">
+                        <p >Hello Lakshya Mahajan</p>
+                        <p>Account</p>
                     </div>
-                    <div></div>
-                    <div></div>
+
+                    <div className=" link">
+                        <p>orders</p>
+                    </div>
+                    <div className=" link">
+                        <ShoppingCartIcon className="h-10" />
+                        <center>
+
+                        <p>cart</p>
+                        </center>
+
+                    </div>
                 </div>
             </div>
 
