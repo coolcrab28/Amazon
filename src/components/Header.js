@@ -25,25 +25,39 @@ function Header() {
                 <div className="mx-6 text-white  whitespace-nowrap flex items-center text-xs space-x-6">
                     <div className=" link">
                         <p >Hello Lakshya Mahajan</p>
-                        <p>Account</p>
+                        <p className="font-extrabold md:text-sm ">Account</p>
                     </div>
 
                     <div className=" link">
-                        <p>orders</p>
+                        <p className="font-extrabold md:text-sm ">orders</p>
                     </div>
-                    <div className=" link">
+                    <div className="flex relative link items-center">
+                        <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 text-center rounded-full font-bold">
+                            0
+                        </span>
                         <ShoppingCartIcon className="h-10" />
-                        <center>
 
-                        <p>cart</p>
-                        </center>
+                        <p className="hidden md:inline font-extrabold md:text-sm mt-2">cart</p>
+                
 
                     </div>
                 </div>
             </div>
 
             {/* bottom nav */}
-            <div></div>
+            <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
+                <p className="link flex items-center"> 
+                    <MenuIcon className="h-6 mr-1" />
+                    All</p>
+            <p className="link flex items-center">Prime Video</p>
+            <p className="link  flex items-center">Business</p>
+            <p className="link  flex items-center">Deals</p>
+            <p className="link  items-center hidden lg:inline-flex">Business</p>
+            <p className="link  items-center hidden lg:inline-flex">Electronincs</p>
+            <p className="link  items-center hidden lg:inline-flex">Grocery</p>
+
+
+            </div>
         </header>
     )
 }
