@@ -1,0 +1,20 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Amazon",
+    "short_name": "Amazon",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "Hello world!",
+    "icon":{
+    
+    },
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://coolcrab28.tk"
+}

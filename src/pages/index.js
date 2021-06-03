@@ -8,11 +8,17 @@ export default function Home({products}) {
     <div>
       <Head>
         <title>Amazon</title>
-        <script async src="https://arc.io/widget.min.js#XFKhhYJ8"></script>
+        <link rel='manifest' href='/manifest.json'></link>
       </Head>
       <Header  />
+      
+
 
       <main className="max-w-screen-xl mx-auto ">
+<script src='https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate'>
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
         <Banner />
         <ProductFeed products={products} />
       </main>
