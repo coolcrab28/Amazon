@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "tk.coolcrab28.twa",
+                   "sha256_cert_fingerprints": ["C4:75:2D:CA:DB:25:4E:7F:20:E0:C2:FE:21:10:21:34:E9:65:6A:42:FB:69:6D:71:F4:D5:A9:68:8B:89:F7:A7"] }
+    }]

@@ -15,10 +15,7 @@ export default function Home({products}) {
 
 
       <main className="max-w-screen-xl mx-auto ">
-<script src='https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate'>
-const el = document.createElement('pwa-update');
-document.body.appendChild(el);
-</script>
+
         <Banner />
         <ProductFeed products={products} />
       </main>
